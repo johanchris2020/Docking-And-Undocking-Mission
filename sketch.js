@@ -42,11 +42,11 @@ function draw() {
 function keyPressed() {
   if (keyCode === LEFT_ARROW) {
     spacecraft.addAnimation("spacecraft", spacecraft3_img);
-    spacecraft.x = spacecraft.x + 10;
+    spacecraft.x = spacecraft.x - 10;
   }
   if (keyCode === RIGHT_ARROW) {
     spacecraft.addAnimation("spacecraft", spacecraft4_img);
-    spacecraft.x = spacecraft.x - 10;
+    spacecraft.x = spacecraft.x + 10;
   }
   if (keyCode === DOWN_ARROW) {
     spacecraft.addAnimation("spacecraft", spacecraft2_img);
